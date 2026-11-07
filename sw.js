@@ -2,7 +2,7 @@
    Serve from the same folder as the app (a-Shell: python3 -m http.server 8080).
    On every app update: change CACHE and APP below; old caches are deleted on activate
    (Google Fonts are copied across, so an update never loses them). */
-const CACHE = 'medpur-web-v1';
+const CACHE = 'medpur-web-v2';
 const APP = 'index.html';
 const PRECACHE = [APP, 'medpur-icon-180.png'];
 const FONT_CSS = 'https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap';
